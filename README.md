@@ -10,7 +10,7 @@
 ## Setup
 
     gem install sass
-    npm install webpack-dev-server -g
+    npm install webpack-dev-server opener -g
     npm install
 
 ## Start server
