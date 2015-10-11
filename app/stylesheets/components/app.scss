@@ -1,0 +1,26 @@
+.lc-app {
+  height: 100%;
+  display: table;
+
+  .nav {
+    display: table-cell;
+    width:   200px;
+    background-color: #ddd;
+    vertical-align: top;
+
+    a {
+      padding-left: 1rem;
+      display: block;
+      line-height: 30px;
+
+      &:hover {
+        background-color: rgb(223, 245, 215);
+      }
+    }
+  }
+
+  .main {
+    display: table-cell;
+    padding: 1rem;
+  }
+}

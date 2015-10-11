@@ -1,10 +1,9 @@
 .lc-gradient {
-  background-color: hsl(60, 30%, 70%);
 
   .colorWheel {
+    margin: 0em auto;
     overflow: hidden;
     position: relative;
-    margin: 1em auto;
     width: 16em; height: 16em;
     background: linear-gradient(36deg, #272b66 42.34%, transparent 42.34%),
       linear-gradient(72deg, #2d559f 75.48%, transparent 75.48%),

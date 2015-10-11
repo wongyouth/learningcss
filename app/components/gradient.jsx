@@ -5,5 +5,5 @@ export default () => {
     <div className="lc-gradient">
       <div className='colorWheel'></div>
     </div>
-  );
+  )
 };
