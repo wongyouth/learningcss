@@ -19,8 +19,10 @@
 
 ## 深入阅读
 
-* [7-1 CSS 设计模式][ref1]
-* [使用npm作为build工具][ref2]
+* [使用npm作为build工具][ref1]
+* [React CSS 设计][ref2]
+* [7-1 CSS 设计模式][ref3]
 
-[ref1]: http://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/ "7-1 CSS 设计模式"
-[ref2]: http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
+[ref1]: http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
+[ref2]: http://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/
+[ref3]: http://sass-guidelin.es/#architecture "7-1 CSS 设计模式"

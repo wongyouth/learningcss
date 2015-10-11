@@ -7,6 +7,7 @@ let routes = (
     <IndexRoute component={LC.Home} />
     <Route path="home" component={LC.Home} />
     <Route path="color-palette" component={LC.ColorPalette} />
+    <Route path="equal-height-column" component={LC.EqualHeightColumn} />
     <Route path="gradient" component={LC.Gradient} />
   </Route>
 )

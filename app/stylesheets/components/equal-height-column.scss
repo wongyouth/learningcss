@@ -1,0 +1,35 @@
+.lc-equal-height-column {
+  width: 50vw;
+
+  .header, .footer, .sidebar, .content {
+    padding-bottom: 1em;
+  }
+
+  .wrapper {
+    background-color: hsl(0,30%,79%);
+  }
+
+  .header {
+    background-color: hsl(30,30%,79%);
+    overflow: hidden;
+  }
+
+  .footer {
+    background-color: hsl(60,30%,79%);
+    overflow: hidden;
+    clear: left;
+  }
+
+  .sidebar {
+    background-color: hsl(90,30%,79%);
+    width: 200px;
+    float: left;
+    margin-right: -200px;
+    position: relative;
+  }
+
+  .content{
+    float: left;
+    border-left: 200px solid hsl(90,30%,79%);
+  }
+}

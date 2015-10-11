@@ -1,11 +1,13 @@
 import App from './components/app';
-import Home from './components/home';
-import Gradient from './components/gradient';
 import ColorPalette from './components/color-palette';
+import EqualHeightColumn from './components/equal-height-column';
+import Gradient from './components/gradient';
+import Home from './components/home';
 
 module.exports = {
   App,
   Home,
+  EqualHeightColumn,
   Gradient,
   ColorPalette
 };
