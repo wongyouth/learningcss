@@ -6,8 +6,9 @@ export default React.createClass({
     return (
       <div className='lc-app'>
         <div className='nav'>
-          <Link to='/'>Home</Link>
-          <Link to='/gradient'>Gradient</Link>
+          <Link activeClassName='active' to='/home'>Home</Link>
+          <Link activeClassName='active' to='/color-palette'>Color Palette</Link>
+          <Link activeClassName='active' to='/gradient'>Gradient</Link>
         </div>
 
         <div className="main">

@@ -1,0 +1,33 @@
+$base: rgb(86, 93, 185);
+$dark: darken($base, 10%);
+$darker: darken($base, 20%);
+$light: lighten($base, 10%);
+$saturate: saturate($base, 10%);
+$desaturate: desaturate($base, 10%);
+$lighter: lighten($base, 20%);
+$similar1: adjust-hue($base, 30);
+$similar2: adjust-hue($base, -30);
+$opposite1: adjust-hue($base, 150);
+$opposite2: adjust-hue($base, -150);
+
+$color-palette: $base, $dark, $darker, $light, $lighter, $saturate, $desaturate, $similar1, $similar2, $opposite1, $opposite2;
+
+.lc-color-palette {
+  .box {
+    width: 5em;
+    height: 5em;
+    display: inline-block;
+    margin: .25em;
+    background-color: $base;
+    text-align: center;
+    line-height: 5em;
+    color: whitesmoke;
+
+    @each $color in $color-palette {
+      $i: index($color-palette, $color);
+      &:nth-of-type(#{$i}) {
+        background-color: $color;
+      }
+    }
+  }
+}

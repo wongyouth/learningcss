@@ -1,6 +1,8 @@
 module.exports = {
   context: __dirname + '/app',
-  entry: './index',
+  entry: [
+    './index'
+  ],
   output: {
     path: __dirname + '/dist',
     filename: 'bundle.js',
@@ -17,7 +19,7 @@ module.exports = {
       },
       {
         test: /\.jsx?$/,
-        loader: 'babel'
+        loaders: ['react-hot', 'babel']
       }
     ]
   }
