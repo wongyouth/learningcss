@@ -1,0 +1,16 @@
+.lc-background-image {
+  .box {
+    width: 10em;
+    height: 10em;
+    background-color: #369; // 1. 最小维护量，只要修改一个颜色值； 2. 降级时的颜色
+    background-image: linear-gradient(
+      to right,
+      hsla(0, 0, 100%, .2), // 不填数字表示 0
+      hsla(0, 0, 100%, .2) 50%,
+      transparent 0,  // 0 代表之前出现的最大值，也就是 50%, 这样修改时只要改一个地方
+      transparent 100%
+    );
+
+    background-size: 1em; // 10% 的大小, 平铺后形成条纹效果
+  }
+}

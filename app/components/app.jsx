@@ -9,6 +9,7 @@ export default React.createClass({
           <Link activeClassName='active' to='/home'>Home</Link>
           <Link activeClassName='active' to='/color-palette'>Color Palette</Link>
           <Link activeClassName='active' to='/equal-height-column'>Equal Height Column</Link>
+          <Link activeClassName='active' to='/background-image'>Background Image</Link>
           <Link activeClassName='active' to='/gradient'>Gradient</Link>
         </div>
 
